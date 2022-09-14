@@ -40,7 +40,7 @@ h1{
 }
 
 .cards-section {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 70px;
