@@ -1,0 +1,106 @@
+
+*{
+    margin: 0; padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-inicio {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/secretay1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-inicio img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Texto de inicio */
+/* .text1 {
+  position: absolute;
+  left: 975px;
+  top: -710px;
+  z-index: 1;
+}
+
+.text1 .modern {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.text1 h5 {
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.img1 {
+    position: absolute;
+    left: 1030px;
+    top: -640px;
+    z-index: 1;
+  }
+
+.text2 {
+    position: absolute;
+    left: 970px;
+    top: -560px;
+    z-index: 1;
+  }
+
+.text2 .slideshow {
+    font-weight: 600;
+    font-size: 2.5em;
+    letter-spacing: 4px;
+}
+
+.img2 {
+    position: absolute;
+    left: 1030px;
+    top: -480px;
+    z-index: 1;
+  }
+
+.img3 {
+    position: absolute;
+    left: 1030px;
+    top: -415px;
+    z-index: 1;
+  }
+
+  .txt {
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -25px; 
+  } */
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
