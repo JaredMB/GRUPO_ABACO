@@ -15,11 +15,10 @@ h1{
 .info-hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: absolute;
   z-index: 100;
-  top: 60%;
-  left: 40%;
+  top: 500px;
+  left: 34%;
 }
 
 .dudas-info {
