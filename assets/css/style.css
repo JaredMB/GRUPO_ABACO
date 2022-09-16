@@ -67,3 +67,67 @@ h1{
 .navbar {
   backdrop-filter: blur(15px);
 }
+
+/* ==== COLOR BOTONES CARRUSEL ==== */
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #f8f9fa;
+}
+
+/* ==== ¿QUIENES SOMOS? ==== */
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+element.style {
+  visibility: visible;
+  animation-delay: 0.5s;
+  animation-name: fadeInDown;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/* .animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+} 
+
+.col-sm-12 {
+  width: 100%;
+} */
+
+/* ==== IMG NOSOTROS ==== */
+
+
+/* ========= ¿QUIENES SOMOS? ========== */
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #030303;
+}
+
+/* ==== IMG SERVICIOS ==== */
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
