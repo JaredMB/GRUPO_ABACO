@@ -7,10 +7,106 @@
     text-decoration: none;
 } */
 
+.img-logo {
+
+  height: 65px;
+  padding-top: 10px;
+  border: 0;
+  vertical-align: middle;
+}
+
 h1{
     font-size: 2rem;
     text-align: center;
 }
+
+/* ============ SECCIÓN ==========*/
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+
+/* ============ SECCIÓN BOTONES FLOTANTES ========== */
+
+
+.btn-flot {
+
+}
+
+.btn-flot .btn-1 {
+  position: absolute;
+  top: 380px;
+  left: 70px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+.btn-flot .btn-2 {
+  position: absolute;
+  top: 290px;
+  left: 220px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+.btn-flot .btn-3 {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+.btn-flot .btn-4 {
+  position: absolute;
+  top: 475px;
+  left: 230px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+.btn-flot .btn-5 {
+  position: absolute;
+  top: 570px;
+  left: 450px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+.btn-flot .btn-6 {
+  position: absolute;
+  top: 700px;
+  left: 5px;
+  height: 70px;
+  width: 260px;
+  background-color: #73c4d8;
+  border-radius: 14%;
+}
+
+/* @media (min-width:1900px){
+
+  .btn-flot .btn-1{
+    top: -200px;
+    left: 150px;
+    height: 370px;
+    width: 370px;
+  }
+
+} */ 
+
+/* =========== REDES SOCIALES ========== */
 
 .info-hero {
   display: flex;
@@ -19,6 +115,7 @@ h1{
   z-index: 100;
   top: 500px;
   left: 34%;
+  
 }
 
 .dudas-info {
@@ -53,6 +150,10 @@ h1{
   gap: 70px;
 }
 
+.carousel {
+  overflow: hidden;
+}
+
 .carousel-control-next, .carousel-control-prev {
     /* position: absolute; */
     top: 0;
@@ -68,9 +169,19 @@ h1{
   backdrop-filter: blur(15px);
 }
 
+
 /* ==== COLOR BOTONES CARRUSEL ==== */
 
+.carousel-control-prev-icon {
+  
+  background-color: #080808;
+}
 
+.carousel-control-next-icon {
+
+  background-color: #080808;
+
+}
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #f8f9fa;
 }
@@ -109,12 +220,21 @@ element.style {
 
 /* ========= ¿QUIENES SOMOS? ========== */
 
+main.home-main {
+  padding: 100px 0;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #030303;
+}
+
+img.image-asesoria {
+  width: 100%;
+  max-width: 600px;
 }
 
 /* ==== IMG SERVICIOS ==== */
