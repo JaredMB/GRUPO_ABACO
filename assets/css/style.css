@@ -6,6 +6,9 @@
 /* a{
     text-decoration: none;
 } */
+.bg-img {
+  height: 100vh;
+}
 
 .img-logo {
 
@@ -20,16 +23,56 @@ h1{
     text-align: center;
 }
 
-/* ============ SECCIÓN ==========*/
+/* ============================ SECCIÓNES =================================*/
 
-section {
-  padding: 60px 0;
+.section-sp {
+  padding: 120px 0;
   overflow: hidden;
+}
+
+/* ======== SECCIÓN QUIENES SOMOS ======== */
+
+.section-bg {
+  background-color: #f6f3f2;
+}
+
+.section-img {
+    position: absolute;
+    left: 100;
+    top: 100;
+    width: 500px;
+    height: 60px;
+}
+
+
+main.home-main {
+  padding: 100px 0;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #030303;
+}
+
+img.image-asesoria {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+/* ======== CINTA NEGRA DE CADA SECCION ======= */
+
+.cinta-negra {
+  padding: 15px 0;
+  background: #2b2320;
+  min-height: 40px;
 }
 
 
 /* ============ SECCIÓN BOTONES FLOTANTES ========== */
-
 
 .btn-flot {
 
@@ -95,6 +138,15 @@ section {
   border-radius: 14%;
 }
 
+.btn-flot .necesitas {
+  position: absolute;
+  top: 350px;
+  left: 400px;
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /* @media (min-width:1900px){
 
   .btn-flot .btn-1{
@@ -114,7 +166,7 @@ section {
   position: absolute;
   z-index: 100;
   top: 500px;
-  left: 34%;
+  left: 40%;
   
 }
 
@@ -164,6 +216,9 @@ section {
     justify-content: center;
     width: 10%;
 }
+
+/* ========== TRANSPARENT NAVBAR ===== */
+
 
 .navbar {
   backdrop-filter: blur(15px);
@@ -217,25 +272,6 @@ element.style {
 
 /* ==== IMG NOSOTROS ==== */
 
-
-/* ========= ¿QUIENES SOMOS? ========== */
-
-main.home-main {
-  padding: 100px 0;
-}
-
-.section-title h2 {
-  font-size: 28px;
-  font-weight: 300;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #030303;
-}
-
-img.image-asesoria {
-  width: 100%;
-  max-width: 600px;
-}
 
 /* ==== IMG SERVICIOS ==== */
 
