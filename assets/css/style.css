@@ -77,6 +77,21 @@ img.image-asesoria {
   max-width: 600px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
 
 /* ======== CINTA NEGRA DE CADA SECCION ======= */
 
@@ -87,7 +102,7 @@ img.image-asesoria {
 }
 
 
-/* ============ SECCIÓN BOTONES FLOTANTES ========== */
+/* ============ (INDEX) BOTONES FLOTANTES ========== */
 
 .btn-flot {
 
@@ -145,7 +160,7 @@ img.image-asesoria {
 
 .btn-flot .btn-6 {
   position: absolute;
-  top: 700px;
+  top: 682px;
   left: 5px;
   height: 70px;
   width: 260px;
@@ -162,16 +177,17 @@ img.image-asesoria {
 
 }
 
-/* @media (min-width:1900px){
+.dudas {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
 
-  .btn-flot .btn-1{
-    top: -200px;
-    left: 150px;
-    height: 370px;
-    width: 370px;
-  }
+}
 
-} */ 
+.visitanos {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
 
 /* =========== REDES SOCIALES ========== */
 
@@ -180,9 +196,8 @@ img.image-asesoria {
   flex-direction: column;
   position: absolute;
   z-index: 100;
-  top: 500px;
+  top: 350px;
   left: 40%;
-  
 }
 
 .dudas-info {
@@ -190,15 +205,15 @@ img.image-asesoria {
 }
 
 .fa-whatsapp {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .fa-facebook {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .fa-instagram {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .social-info {
@@ -216,6 +231,24 @@ img.image-asesoria {
   justify-content: center;
   gap: 70px;
 }
+
+.fa-facebook {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 100;
+  top: 263px;
+  left: 45%;
+}
+
+.fa-instagram-2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 100;
+  top: 263px;
+  left: 52%;
+}
+
+
 
 .carousel {
   overflow: hidden;
@@ -258,10 +291,11 @@ img.image-asesoria {
 
 /* ==== ¿QUIENES SOMOS? ==== */
 
+/*
 .row {
   margin-right: -15px;
   margin-left: -15px;
-}
+} */
 
 element.style {
   visibility: visible;
