@@ -7,6 +7,7 @@
 /* a{
     text-decoration: none;
 } */
+
 .bg-img {
   height: 100vh;
 }
@@ -42,6 +43,17 @@ h2{
   left: 14rem;
   position: absolute;
   color: #f6f3f2;
+}
+
+/* ==================== NAVBAR ================================*/
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 85px;
+  left: 85px;
+  z-index: 1030;
+  border-radius: 20px;
 }
 
 /* ============================ SECCIÓNES =================================*/
@@ -111,9 +123,6 @@ img.image-asesoria {
 
 /* ============ (INDEX) BOTONES FLOTANTES ========== */
 
-.btn-flot {
-
-}
 
 .img-sec{
   position: absolute;
@@ -126,10 +135,9 @@ img.image-asesoria {
 .img-menu{
   position: absolute;
   z-index: 100;
-  top: 180px;
-  left: 150px;
-  height: 70px;
-  width: 550px;
+  top: 278px;
+  left: 248px;
+  width: 343px;
 }
 
 .img-atender{
@@ -351,21 +359,6 @@ img.image-asesoria {
 }
 
 
-/* ==== COLOR BOTONES CARRUSEL ==== */
-
-.carousel-control-prev-icon {
-  
-  background-color: #080808;
-}
-
-.carousel-control-next-icon {
-
-  background-color: #080808;
-
-}
-.carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #f8f9fa;
-}
 
 /* ==== ¿QUIENES SOMOS? ==== */
 
@@ -396,8 +389,6 @@ element.style {
 .col-sm-12 {
   width: 100%;
 } */
-
-/* ==== IMG NOSOTROS ==== */
 
 
 /* ==== IMG SERVICIOS ==== */
