@@ -1,6 +1,7 @@
 
 *{
-    margin: 0; padding: 0;
+  padding: 0;
+  margin: 0; 
 }
 
 /* a{
@@ -114,65 +115,77 @@ img.image-asesoria {
 
 }
 
-.btn-flot .btn-1 {
+.img-sec{
   position: absolute;
-  top: 380px;
-  left: 70px;
-  height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  z-index: 100;
+  top: 244px;
+  left: 720px;
+  width: 550px;
 }
 
-.btn-flot .btn-2 {
+.img-menu{
   position: absolute;
-  top: 290px;
-  left: 220px;
+  z-index: 100;
+  top: 180px;
+  left: 150px;
   height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  width: 550px;
 }
 
-.btn-flot .btn-3 {
+.img-atender{
   position: absolute;
-  top: 200px;
-  left: 450px;
-  height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  z-index: 100;
+  top: 205px;
+  left: 346px;
+  height: auto;
+  width: 150px;
 }
 
-.btn-flot .btn-4 {
+.img-elaborar{
   position: absolute;
-  top: 475px;
-  left: 230px;
-  height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  z-index: 100;
+  top: 288px;
+  left: 475px;
+  height: auto;
+  width: 170px;
 }
 
-.btn-flot .btn-5 {
+.img-reclutar{
   position: absolute;
-  top: 570px;
-  left: 450px;
-  height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  z-index: 100;
+  top: 460px;
+  left: 475px;
+  height: auto;
+  width: 170px;
 }
 
-.btn-flot .btn-6 {
+.img-capacitar{
   position: absolute;
-  top: 682px;
-  left: 5px;
-  height: 70px;
-  width: 260px;
-  background-color: #73c4d8;
-  border-radius: 20px;
+  z-index: 100;
+  top: 520px;
+  left: 350px;
+  height: auto;
+  width: 150px;
 }
+
+.img-asesoria{
+  position: absolute;
+  z-index: 100;
+  top: 470px;
+  left: 210px;
+  height: auto;
+  width: 155px;
+}
+
+.img-desarrollo{
+  position: absolute;
+  z-index: 100;
+  top: 295px;
+  left: 210px;
+  height: auto;
+  width: 155px;
+}
+
 
 .btn-flot .necesitas {
   position: absolute;
@@ -184,15 +197,60 @@ img.image-asesoria {
 }
 
 .dudas {
-  font-size: 3em;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.visitanos {
-  font-size: 3em;
-  font-family: Arial, Helvetica, sans-serif;
 
+.btn-1{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  overflow: hidden;
+}
+
+.btn-1::after{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.btn-1:hover{
+  transform: translate(0, -6px);
+
+}
+
+.btn-1:hover::after{
+  transform: rotate(150deg);
+}
+
+
+.btn-2{
+  transition: transform 0.3s ease;
+}
+
+.btn-2::after, .btn-2::before{
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.btn-2:hover{
+  transform: translate(-12px, -12px);
+}
+
+.btn-2:hover::after{
+  transform: translate(6px, 6px);
+}
+
+.btn-2:hover::before{
+  transform: translate(12px, 12px);
 }
 
 /* =========== REDES SOCIALES ========== */
@@ -202,12 +260,19 @@ img.image-asesoria {
   flex-direction: column;
   position: absolute;
   z-index: 100;
-  top: 350px;
+  top: 580px;
   left: 40%;
 }
 
 .dudas-info {
   text-align: center;
+}
+
+.icon-redes {
+  position: absolute;
+  z-index: 100;
+  top: 420px;
+  left: -300px;
 }
 
 .fa-whatsapp {
@@ -242,18 +307,25 @@ img.image-asesoria {
   color: rgb(255, 255, 255);
   position: absolute;
   z-index: 100;
-  top: 263px;
-  left: 45%;
+  top: 270px;
+  left: 40%;
 }
 
 .fa-instagram-2 {
   color: rgb(255, 255, 255);
   position: absolute;
   z-index: 100;
-  top: 263px;
-  left: 52%;
+  top: 270px;
+  left: 43%;
 }
 
+.fa-linkedin-2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 100;
+  top: 270px;
+  left: 46%;
+}
 
 
 .carousel {
