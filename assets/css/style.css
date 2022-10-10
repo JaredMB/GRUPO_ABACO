@@ -50,10 +50,10 @@ h2{
 .fixed-top {
   position: fixed;
   top: 0;
-  right: 85px;
-  left: 85px;
+  right: 60px;
+  left: 60px;
   z-index: 1030;
-  border-radius: 0px 0px 55px 55px;
+  border-radius: 0px 0px 40px 40px;
 }
 
 /* ========== TRANSPARENT NAVBAR ===== */
@@ -140,9 +140,9 @@ img.image-asesoria {
 .img-sec{
   position: absolute;
   z-index: 100;
-  top: 244px;
-  left: 720px;
-  width: 550px;
+  top: 320px;
+  left: 790px;
+  width: 500px;
 }
 
 .img-menu{
@@ -224,6 +224,8 @@ img.image-asesoria {
 }
 
 
+/* ============== ANIMACION BOTONES #1 FLOTANTES ============= */
+
 .btn-1{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -247,6 +249,8 @@ img.image-asesoria {
   transform: rotate(150deg);
 }
 
+
+/* ============== ANIMACION BOTONES #2 FLOTANTES ============= */
 
 .btn-2{
   transition: transform 0.3s ease;
@@ -274,29 +278,26 @@ img.image-asesoria {
   transform: translate(12px, 12px);
 }
 
+
+/* ============== ANIMACION BOTON WHATSAPP ============= */
+
 .explo-img {
   position: absolute;
   z-index: 100;
-  top: 614px;
-  left: 1325px;
-  width: 120px;
+  top: 570px;
+  left: 1275px;
+  width: 155px;
 }
 
-.circulo {
-  width: 80px;
-  height: 80px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #5cb85c;
-}
-
-.circulo-dist{
+.whats-icon{
   position: absolute;
   z-index: 100;
-  top: 635px;
-  left: 1342px;
+  top: 60px;
+  left: 720px;
+  width: 95px;
 }
+
+
 /* =========== REDES SOCIALES ========== */
 
 .info-hero {
@@ -304,8 +305,8 @@ img.image-asesoria {
   flex-direction: column;
   position: absolute;
   z-index: 100;
-  top: 580px;
-  left: 40%;
+  top: 540px;
+  left: 38%;
 }
 
 .dudas-info {
@@ -315,8 +316,8 @@ img.image-asesoria {
 .icon-redes {
   position: absolute;
   z-index: 100;
-  top: 420px;
-  left: -300px;
+  top: 450px;
+  left: -350px;
 }
 
 .fa-whatsapp {
@@ -355,6 +356,14 @@ img.image-asesoria {
   left: 40%;
 }
 
+.fa-linkedin-2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 100;
+  top: 270px;
+  left: 46%;
+}
+
 .fa-instagram-2 {
   color: rgb(255, 255, 255);
   position: absolute;
@@ -363,13 +372,7 @@ img.image-asesoria {
   left: 43%;
 }
 
-.fa-linkedin-2 {
-  color: rgb(255, 255, 255);
-  position: absolute;
-  z-index: 100;
-  top: 270px;
-  left: 46%;
-}
+
 
 
 .carousel {
@@ -439,15 +442,48 @@ img, svg {
 .logo-2{
   position: absolute;
   z-index: 100;
-  top: 100px;
-  left: 1230px;
-  height: auto;
+  top: 90px;
+  left: 1150px;
   width: 250px;
 }
 
-.g-abaco{
+.text-abaco{
   position: absolute;
   z-index: 100;
-  top: 720px;
-  left: 350px;
+  top: 748px;
+  left: 300px;
+}
+
+.container-menu{
+  position: absolute;
+  z-index: 100;
+  top: -5px;
+  left: 80px;
+}
+
+.bandera-eua{
+  width: 25px;
+}
+
+.aviso-priv{
+  position: absolute;
+  z-index: 100;
+  top: 750px;
+  left: 1280px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.3em;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #808080;
+}
+@media only screen and (min-width: 992px) {
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0 1em;
+}
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+  border-right: 2px solid #808080;
+}
 }
