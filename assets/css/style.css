@@ -50,10 +50,9 @@ h2{
 .fixed-top {
   position: fixed;
   top: 0;
-  right: 60px;
-  left: 60px;
+  right: 0px;
+  left: 0px;
   z-index: 1030;
-  border-radius: 0px 0px 40px 40px;
 }
 
 /* ========== TRANSPARENT NAVBAR ===== */
