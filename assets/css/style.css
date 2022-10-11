@@ -315,7 +315,7 @@ img.image-asesoria {
 .icon-redes {
   position: absolute;
   z-index: 100;
-  top: 450px;
+  top: 435px;
   left: -350px;
 }
 
@@ -449,7 +449,7 @@ img, svg {
 .text-abaco{
   position: absolute;
   z-index: 100;
-  top: 748px;
+  top: 738px;
   left: 300px;
 }
 
@@ -471,8 +471,8 @@ img, svg {
 .aviso-priv{
   position: absolute;
   z-index: 100;
-  top: 750px;
-  left: 1280px;
+  top: 745px;
+  left: 1285px;
 }
 
 .navbar .navbar-nav .nav-link {
