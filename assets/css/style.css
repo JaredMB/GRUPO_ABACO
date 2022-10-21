@@ -4,13 +4,6 @@
   margin: 0; 
 }
 
-/* a{
-    text-decoration: none;
-} */
-
-.bg-img {
-  height: 100vh;
-}
 
 .img-logo {
 
@@ -45,9 +38,18 @@ h2{
   color: #f6f3f2;
 }
 
-/* ==================== NAVBAR ================================*/
+/* ==================== NAVBAR PROPIEDADES ================================*/
 
 .fixed-top {
+  position: fixed;
+  top: 0;
+  right: 60px;
+  left: 60px;
+  z-index: 1030;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.fixed-top1 {
   position: fixed;
   top: 0;
   right: 0px;
@@ -55,17 +57,38 @@ h2{
   z-index: 1030;
 }
 
+
 /* ========== TRANSPARENT NAVBAR ===== */
 
 
 .navbar {
   backdrop-filter: blur(15px);
   background-color: white;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .navbar-color{
   background-color: black;
 }
+
+.navbar1 {
+  background: rgb(7,134,233);
+  background: linear-gradient(90deg, rgba(7,134,233,1) 0%, rgba(5,76,133,1) 100%);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ==================== NAVBAR BTN-MENU FLOTANTE ================================*/
+
+.img-nav{
+  position: absolute;
+  z-index: 100;
+  top: 200px;
+  left: 50px;
+  height: auto;
+  width: 1100px;
+}
+
 
 /* ============================ SECCIÓNES =================================*/
 
@@ -77,6 +100,7 @@ h2{
 
 /* ======== SECCIÓN QUIENES SOMOS ======== */
 
+/*
 .section-bg {
   background-color: #f6f3f2;
 }
@@ -111,7 +135,7 @@ img.image-asesoria {
   max-width: 100%;
   height: auto;
 }
-
+*/
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -120,17 +144,8 @@ img.image-asesoria {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x));
-}
+} 
 
-
-
-/* ======== CINTA NEGRA DE CADA SECCION ======= */
-
-.cinta-negra {
-  padding: 15px 0;
-  background: #2b2320;
-  min-height: 40px;
-}
 
 
 /* ============ (INDEX) BOTONES FLOTANTES ========== */
@@ -207,6 +222,8 @@ img.image-asesoria {
 }
 
 
+/* ============== BOTONES DE INFO ============= */
+
 .btn-flot .necesitas {
   position: absolute;
   top: 350px;
@@ -222,10 +239,95 @@ img.image-asesoria {
 
 }
 
+/* =========== IMÁGENES SECCIÓN "NÓMINAS" ========== */
+
+.img-lap{
+  position: absolute;
+  z-index: 100;
+  top: 104px;
+  left: 120px;
+  width: 1300px;
+}
+
+.img-title-1{
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+  left: 240px;
+  width: 300px;
+}
+
+.img-text-1{
+  position: absolute;
+  z-index: 100;
+  top: 150px;
+  left: 700px;
+  width: 600px;
+}
+
+
+.img-ahorro{
+  position: absolute;
+  z-index: 100;
+  top: 400px;
+  left: 50px;
+  width: 340px;
+}
+
+.img-dism{
+  position: absolute;
+  z-index: 100;
+  top: 386px;
+  left: 300px;
+  width: 345px;
+}
+
+.img-cel{
+  position: absolute;
+  z-index: 100;
+  top: 200px;
+  left: 460px;
+  width: 600px;
+}
+
+.img-opti{
+  position: absolute;
+  z-index: 100;
+  top: 385px;
+  left: 870px;
+  width: 390px;
+}
+
+
+.img-expert{
+  position: absolute;
+  z-index: 100;
+  top: 385px;
+  left: 1122px;
+  width: 380px;
+}
+
+.img-wha-nom{
+  position: absolute;
+  z-index: 100;
+  top: 680px;
+  left: 1360px;
+  width: 75px;
+}
+
+.txt-contac{
+  position: absolute;
+  z-index: 100;
+  top: 754px;
+  left: 1350px;
+  color: #173775;
+  text-decoration: none;
+}
+
 
 /* ============== ANIMACION BOTONES #1 FLOTANTES ============= */
 
-.btn-1{
+.btn-1{ 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   overflow: hidden;
@@ -371,8 +473,11 @@ img.image-asesoria {
   left: 43%;
 }
 
+/* =========== FINAL DE REDES SOCIALES ========== */
 
 
+
+/* =========== CARRUSEL PROPIEDADES ========== */
 
 .carousel {
   overflow: hidden;
@@ -394,12 +499,6 @@ img.image-asesoria {
 
 /* ==== ¿QUIENES SOMOS? ==== */
 
-/*
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-} */
-
 element.style {
   visibility: visible;
   animation-delay: 0.5s;
@@ -410,17 +509,6 @@ element.style {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
-
-/* .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-} 
-
-.col-sm-12 {
-  width: 100%;
-} */
 
 
 /* ==== IMG SERVICIOS ==== */
@@ -460,6 +548,8 @@ img, svg {
   left: 80px;
 }
 
+/* =========== BANDERAS NAVBAR ========== */
+
 .bandera-eua{
   width: 26px;
 }
@@ -468,12 +558,20 @@ img, svg {
   width: 28px;
 }
 
+/* =========== FIN BANDERAS NAVBAR ========== */
+
+
+/* =========== TEXTO AVISO DE PRIVACIDAD ========== */
+
 .aviso-priv{
   position: absolute;
   z-index: 100;
   top: 745px;
   left: 1285px;
 }
+
+
+/* =========== LÍNEAS VERTICALES SEPARADORAS ========== */
 
 .navbar .navbar-nav .nav-link {
   color: #000000;
@@ -490,3 +588,4 @@ img, svg {
   border-right: 3px solid #808080;
 }
 }
+
